@@ -38,15 +38,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        "YOUR_SERVICE_ID", // 🔴 Put Service ID here
-        "YOUR_TEMPLATE_ID", // 🔴 Put Template ID here
+        "service_x23xjva", // 🔴 Put Service ID here
+        "template_ac6tjyj", // 🔴 Put Template ID here
         {
           name: formData.name,
           phone: formData.phone,
           email: formData.email,
           message: formData.message,
         },
-        "YOUR_PUBLIC_KEY", // 🔴 P Public Key here
+        "MUoa5D4mL0ZM1espm", // 🔴 P Public Key here
       )
       .then(
         (result) => {
@@ -70,28 +70,32 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { // NEED TO ADD MOBILE NUMBER NOW YES YES NUMBER IS ADDED FOR DEMO
+    {
+      // NEED TO ADD MOBILE NUMBER NOW YES YES NUMBER IS ADDED FOR DEMO
       icon: Phone,
       title: "Phone",
       value: "+91 7305107148",
       link: "tel:+917305107148",
       description: "Mon-Sat, 9 AM - 7 PM",
     },
-    {//WE NEED TO ADD GMAIL ID FOR SUPPORT AFTER AVAILABLE NOW DEMO MAIL ID IS USED
+    {
+      //WE NEED TO ADD GMAIL ID FOR SUPPORT AFTER AVAILABLE NOW DEMO MAIL ID IS USED
       icon: Mail,
       title: "Email",
       value: "support@ecoscrap.in",
       link: "https://mail.google.com/mail/?view=cm&fs=1&to=support@ecoscrap.in&su=Scrap%20Pickup%20Query&body=Hello%20SplGain%20Money%20Team,",
       description: "We reply within 24 hours",
     },
-    { //NEED TO SUPPORT WHATSAPP NUMBER NOW YES YES NUMBER ADDED FOR DEMO
+    {
+      //NEED TO SUPPORT WHATSAPP NUMBER NOW YES YES NUMBER ADDED FOR DEMO
       icon: MessageCircle,
       title: "WhatsApp",
       value: "+91 7305107148",
       link: "https://wa.me/917305107148",
       description: "Quick response available",
     },
-    { // WE NEED TO UPDATE HEAD OFFICE LOCATION AFTER AVAILABLE NOW YES YES OFFICE LOCATION ADDED FOR DEMO 
+    {
+      // WE NEED TO UPDATE HEAD OFFICE LOCATION AFTER AVAILABLE NOW YES YES OFFICE LOCATION ADDED FOR DEMO
       icon: MapPin,
       title: "Head Office",
       value: "Chennai, TamilNadu",
