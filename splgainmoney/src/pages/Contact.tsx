@@ -10,7 +10,7 @@ import {
   Linkedin,
 } from "lucide-react";
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ const Contact = () => {
     emailjs
       .send(
         "service_x23xjva", // 🔴 Put Service ID here
-        "template_ac6tjyj", // 🔴 Put Template ID here
+        "template_0g10ktn", // 🔴 Put Template ID here
         {
           name: formData.name,
           phone: formData.phone,
