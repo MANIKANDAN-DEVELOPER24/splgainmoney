@@ -31,7 +31,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
       label: "WhatsApp",
       url: "https://wa.me/917305107148",
     },
-    { icon: Linkedin, label: "LinkedIn", url: "#" },
+    // { icon: Linkedin, label: "LinkedIn", url: "#" },
   ];
 
   return (
