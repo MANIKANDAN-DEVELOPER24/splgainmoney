@@ -105,20 +105,28 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, label: "Facebook", url: "#", color: "hover:bg-blue-600" },
+    { icon: Facebook, label: "Facebook", 
+      url: "#", 
+      color: "hover:bg-blue-600" 
+    },
     {
       icon: Instagram,
       label: "Instagram",
       url: "#",
       color: "hover:bg-pink-600",
     },
-    {
-      icon: MessageCircle,
-      label: "WhatsApp",
-      url: "https://wa.me/917305107148",
-      color: "hover:bg-green-600",
-    },
-    { icon: Linkedin, label: "LinkedIn", url: "#", color: "hover:bg-blue-700" },
+
+    // {
+    //   icon: MessageCircle,
+    //   label: "WhatsApp",
+    //   url: "https://wa.me/917305107148",
+    //   color: "hover:bg-green-600",
+    // },
+    // { icon: Linkedin, label: "LinkedIn", 
+    // url: "#", 
+    // color: "hover:bg-blue-700" 
+    // },
+    
   ];
 
   return (
