@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Recycle } from "lucide-react";
+import { Facebook, Instagram, Recycle } from "lucide-react";
 import { MessageCircle } from "lucide-react";
 
 type Page =
@@ -119,7 +119,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
           <p>
             &copy; {new Date().getFullYear()} SplGain Money. All rights
             reserved. Designed & Developed By{" "}
-            <a // idea2design website link need to update
+            <a 
               href="https://idea2designs.com"
               target="_blank"
               rel="noopener noreferrer"
