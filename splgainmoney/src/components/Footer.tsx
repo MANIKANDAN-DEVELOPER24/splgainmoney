@@ -108,12 +108,6 @@ const Footer = ({ onNavigate }: FooterProps) => {
           </div>
         </div>
 
-        {/* <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>
-            &copy; {new Date().getFullYear()} SplGain Money. All rights
-            reserved. Designed & Developed By Idea2Designs
-          </p>
-        </div> */}
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>
