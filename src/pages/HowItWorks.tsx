@@ -205,15 +205,11 @@ const HowItWorks = () => {
               Download our mobile app now and schedule your first pickup in
               minutes. It's fast, easy, and completely free to use!
             </p>
-            {/* <button className="bg-white text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 flex items-center space-x-2 mx-auto">
-              <Smartphone className="w-5 h-5" />
-              <span>Download App Now</span>
-            </button> */}
-
+           
             <button
               onClick={() =>
-                window.open(
-                  "https://play.google.com/store/apps/details?id=com.flipkart.android",
+                window.open(  // APP LINK NEEDS TO ADD 
+                  "#",
                   "_blank",
                 )
               }

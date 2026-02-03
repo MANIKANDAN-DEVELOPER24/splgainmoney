@@ -186,11 +186,7 @@ const Services = () => {
               Just Upload the material image  to check if we can collect your specific type of scrap
               material. Our team will contact You . 
             </p>
-            {/* <button
-              className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-all hover:scale-105"
-            >
-              Contact Us
-            </button> */}
+           
           </div>
         </div>
       </section>

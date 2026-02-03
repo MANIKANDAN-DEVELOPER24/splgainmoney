@@ -73,6 +73,27 @@ const MobileApp = () => {
     { value: "24/7", label: "Support" },
   ];
 
+  const testimonials = [
+    {
+      id: 1,
+      name: "Ramesh Kumar",
+      review: "Amazing app! Pickup was super fast and pricing was fair.",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Suresh Mani",
+      review: "Very smooth process. Agent arrived on time. Good service!",
+      rating: 4,
+    },
+    {
+      id: 3,
+      name: "Priya Devi",
+      review: "Best scrap collection service in our area. Highly trusted.",
+      rating: 5,
+    },
+  ];
+
   return (
     <div className="pt-20">
       <section className="bg-gradient-to-br from-green-50 via-white to-green-50 py-20">
@@ -89,8 +110,8 @@ const MobileApp = () => {
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.flipkart.android"
+                <a // APP LINK NEEDS TO ADD
+                  href="#"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center space-x-3"
                 >
                   <Download className="w-5 h-5" />
@@ -99,6 +120,7 @@ const MobileApp = () => {
                     <div className="font-semibold">Google Play</div>
                   </div>
                 </a>
+               
                 {/* <a
                   href="#"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center space-x-3"
@@ -109,6 +131,7 @@ const MobileApp = () => {
                     <div className="font-semibold">App Store</div>
                   </div>
                 </a> */}
+
               </div>
 
               <div className="grid grid-cols-4 gap-4">
@@ -128,7 +151,7 @@ const MobileApp = () => {
                 <div className="bg-white rounded-2xl p-6 mb-6">
                   <div className="flex items-center space-x-3 mb-4">
                     <div className="bg-green-100 p-3 rounded-full">
-                        <Smartphone className="w-6 h-6 text-green-600" />  
+                      <Smartphone className="w-6 h-6 text-green-600" />
                     </div>
                     <div>
                       <div className="font-bold text-gray-900">
@@ -253,7 +276,7 @@ const MobileApp = () => {
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Download</h3>
                 <p className="text-sm text-gray-600">
-                  Get the app from Play Store or App Store
+                  Get the app from Play Store
                 </p>
               </div>
 
@@ -304,7 +327,7 @@ const MobileApp = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="https://play.google.com/store/apps/details?id=com.flipkart.android" //add the splgainmoney app link when available
+                href="#" //add the splgainmoney app link when available
                 className="bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 flex items-center space-x-2"
               >
                 <Download className="w-5 h-5" />
@@ -318,6 +341,7 @@ const MobileApp = () => {
                 <Download className="w-5 h-5" />
                 <span>Download for iOS</span>
               </a> */}
+
             </div>
           </div>
         </div>
@@ -330,38 +354,49 @@ const MobileApp = () => {
               What Our Users Say
             </h2>
 
+           
+
             <div className="grid md:grid-cols-3 gap-6">
-              {[1, 2, 3].map((index) => (
-                <div key={index} className="bg-white rounded-xl p-6 shadow-md">
+              {testimonials.map((user) => (
+               
+               <div
+                  key={user.id}
+                  className="bg-white rounded-xl p-6 shadow-md"
+                >
+                  {/* Stars */}
                   <div className="flex items-center space-x-1 mb-4">
-                    {[1, 2, 3, 4, 5].map((star) => (
+                    {[...Array(user.rating)].map((_, i) => (
                       <Star
-                        key={star}
+                        key={i}
                         className="w-4 h-4 fill-yellow-400 text-yellow-400"
                       />
                     ))}
                   </div>
-                  <p className="text-gray-600 mb-4">
-                    "Amazing app! The pickup was fast and the rates were very
-                    fair. Highly recommend!"
-                  </p>
+
+                  {/* Review */}
+                  <p className="text-gray-600 mb-4">"{user.review}"</p>
+
+                  {/* User Info */}
                   <div className="flex items-center space-x-3">
                     <div className="bg-gray-200 w-10 h-10 rounded-full flex items-center justify-center">
                       <Users className="w-5 h-5 text-gray-600" />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">
-                        User {index}
+                        {user.name}
                       </div>
                       <div className="text-sm text-gray-500">
                         Verified Customer
                       </div>
                     </div>
                   </div>
+                  
                 </div>
               ))}
             </div>
+
           </div>
+
         </div>
       </section>
     </div>

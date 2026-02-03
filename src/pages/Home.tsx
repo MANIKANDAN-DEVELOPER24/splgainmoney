@@ -91,7 +91,7 @@ const Home = ({ onNavigate }: HomeProps) => {
                 <span className="text-green-600">Doorstep</span>
               </h1> */}
 
-              {/* This code is for animate the word like typing if don't needed disable below lines and use the above line   */}
+              {/* This code is for animate the word    */}
 
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Easy Scrap Collection at Your{" "}
@@ -112,19 +112,11 @@ const Home = ({ onNavigate }: HomeProps) => {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                {/*now disabled for adding mobile app link because this code goes to mobile app page so new code written */}
-                {/* <button
-                  onClick={() => onNavigate("mobile-app")}
-                  className="bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-all hover:scale-105 shadow-lg shadow-green-600/30 flex items-center space-x-2"
-                >
-                  <Smartphone className="w-5 h-5" />
-                  <span>Download App</span>
-                </button> */}
-
+      
                 <button
                   onClick={() =>
-                    window.open(
-                      "https://play.google.com/store/apps/details?id=com.flipkart.android",
+                    window.open( // app link needs to add 
+                      "#",
                       "_blank",
                     )
                   }
@@ -134,34 +126,9 @@ const Home = ({ onNavigate }: HomeProps) => {
                   <span>Download App</span>
                 </button>
 
-                {/* <button
-                  onClick={() => onNavigate("contact")}
-                  className="bg-white text-green-600 border-2 border-green-600 px-8 py-4 rounded-full font-semibold hover:bg-green-50 transition-all hover:scale-105"
-                >
-                  Book Pickup
-                </button> */}
               </div>
             </div>
 
-            {/* now disabled for design issues */}
-
-            {/* <div className="relative animate-fadeIn"> 
-              <div className="bg-white rounded-2xl shadow-2xl p-8 transform hover:scale-105 transition-transform duration-300">
-                <div className="flex items-center justify-center mb-6">
-                  <div className="bg-green-100 p-8 rounded-full">
-                    <Recycle className="w-24 h-24 text-green-600 animate-spin-slow" />
-                  </div>
-                </div>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    Join the Green Revolution
-                  </h3>
-                  <p className="text-gray-600">
-                    Over 50,000+ pickups completed across TamilNadu
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
@@ -249,17 +216,11 @@ const Home = ({ onNavigate }: HomeProps) => {
               instant quotes and same-day service.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              {/* <button
-                onClick={() => onNavigate("mobile-app")}
-                className="bg-white text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 flex items-center space-x-2"
-              >
-                <Smartphone className="w-5 h-5" />
-                <span>Download App Now</span>
-              </button> */}
+             
               <button
                 onClick={() =>
-                  window.open(
-                    "https://play.google.com/store/apps/details?id=com.flipkart.android",
+                  window.open(  // app link needs to add 
+                    "#",
                     "_blank",
                   )
                 }

@@ -22,15 +22,6 @@ const Contact = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
-  // const handleSubmit = (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setSubmitted(true);
-  //   setTimeout(() => {
-  //     setSubmitted(false);
-  //     setFormData({ name: "", phone: "", email: "", message: "" });
-  //   }, 3000);
-  // };
-
   // This code is for sending email features
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -38,15 +29,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_x23xjva", // 🔴 Put Service ID here
-        "template_0g10ktn", // 🔴 Put Template ID here
+        "service_x23xjva", //  Put Service ID here
+        "template_0g10ktn", //  Put Template ID here
         {
           name: formData.name,
           phone: formData.phone,
           email: formData.email,
           message: formData.message,
         },
-        "MUoa5D4mL0ZM1espm", // 🔴 P Public Key here
+        "MUoa5D4mL0ZM1espm", //  P Public Key here
       )
       .then(
         (result) => {
