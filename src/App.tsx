@@ -43,7 +43,7 @@ function App() {
     }
   };
 
-  // The below code is for disable view source code from unknown person now right click option not working it is best for control code reusability
+  // The below code is for disable view source code .
 
   useEffect(() => {
     document.addEventListener("contextmenu", (e) => e.preventDefault());

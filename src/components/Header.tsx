@@ -78,17 +78,12 @@ const Header = ({ currentPage, onNavigate }: HeaderProps) => {
             ))}
           </nav>
 
-          {/* <button                        //it only goes to mobile app section so disabled and now working code is writen
-            onClick={() => handleNavClick("mobile-app")}
-            className="hidden lg:block bg-green-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-green-700 transition-all hover:scale-105 shadow-lg shadow-green-600/30"
-          >
-            Download App
-          </button> */}
+         
 
           <button //we need to add the app link when available
             onClick={() =>
               window.open(
-                "https://play.google.com/store/apps/details?id=com.flipkart.android",
+                "#",
                 "_blank",
               )
             }
@@ -131,10 +126,11 @@ const Header = ({ currentPage, onNavigate }: HeaderProps) => {
               >
                 Download App
               </button> */}
-              <button //we need to add the app link when available
+              
+              <button     //we need to add the app link when available
                 onClick={() =>
                   window.open(
-                    "https://play.google.com/store/apps/details?id=com.flipkart.android",
+                    "#",
                     "_blank",
                   )
                 }

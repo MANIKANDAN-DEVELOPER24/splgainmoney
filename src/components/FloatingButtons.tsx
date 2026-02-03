@@ -11,7 +11,7 @@ const FloatingButtons = () => {
     <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-40">
       <div className="relative">
         <a
-          href="https://play.google.com/store/apps/details?id=com.flipkart.android" //add the splgainmoney app link when available
+          href="#" //add the splgainmoney app link when available
           target="_blank"
           rel="noopener noreferrer"
         >
