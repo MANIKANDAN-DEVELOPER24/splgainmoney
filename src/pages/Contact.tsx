@@ -7,7 +7,7 @@ import {
   MessageCircle,
   Facebook,
   Instagram,
-  Linkedin,
+  // Linkedin,
 } from "lucide-react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -37,7 +37,7 @@ const Contact = () => {
           email: formData.email,
           message: formData.message,
         },
-        "MUoa5D4mL0ZM1espm", //  P Public Key here
+        "MUoa5D4mL0ZM1espm", //  Put Public Key here
       )
       .then(
         (result) => {
@@ -74,7 +74,7 @@ const Contact = () => {
       icon: Mail,
       title: "Email",
       value: "support@ecoscrap.in",
-      link: "https://mail.google.com/mail/?view=cm&fs=1&to=support@ecoscrap.in&su=Scrap%20Pickup%20Query&body=Hello%20SplGain%20Money%20Team,",
+      link: "#",                    //mail link needs to add
       description: "We reply within 24 hours",
     },
     {
@@ -106,17 +106,6 @@ const Contact = () => {
       url: "#",
       color: "hover:bg-pink-600",
     },
-
-    // {
-    //   icon: MessageCircle,
-    //   label: "WhatsApp",
-    //   url: "https://wa.me/917305107148",
-    //   color: "hover:bg-green-600",
-    // },
-    // { icon: Linkedin, label: "LinkedIn", 
-    // url: "#", 
-    // color: "hover:bg-blue-700" 
-    // },
     
   ];
 
