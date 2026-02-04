@@ -86,12 +86,6 @@ const Home = ({ onNavigate }: HomeProps) => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fadeIn">
-              {/* <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                Easy Scrap Collection at Your{" "}
-                <span className="text-green-600">Doorstep</span>
-              </h1> */}
-
-              {/* This code is for animate the word    */}
 
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                 Easy Scrap Collection at Your{" "}
