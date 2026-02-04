@@ -103,7 +103,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
             </div>
             <div className="text-sm text-gray-400">
               <p className="mb-1">📞 +91 73051 07148</p>
-              <p>📧 support@ecoscrap.in</p>
+              <p>📧 splgainmoney@gmail.com</p>
             </div>
           </div>
         </div>
