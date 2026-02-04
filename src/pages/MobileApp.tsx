@@ -82,13 +82,13 @@ const MobileApp = () => {
     },
     {
       id: 2,
-      name: "Suresh Mani",
+      name: "Suresh M",
       review: "Very smooth process. Agent arrived on time. Good service!",
       rating: 4,
     },
     {
       id: 3,
-      name: "Priya Devi",
+      name: "Priya D",
       review: "Best scrap collection service in our area. Highly trusted.",
       rating: 5,
     },
@@ -121,7 +121,7 @@ const MobileApp = () => {
                   </div>
                 </a>
                
-                {/* <a
+                {/* <a // app  store link
                   href="#"
                   className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center space-x-3"
                 >
