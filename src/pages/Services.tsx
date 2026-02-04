@@ -183,10 +183,9 @@ const Services = () => {
               Don't See Your Material?
             </h3>
             <p className="text-gray-600 mb-6">
-              Just Upload the material image  to check if we can collect your specific type of scrap
-              material. Our team will contact You . 
+              Just Upload the material image to check if we can collect your
+              specific type of scrap material. Our team will contact You .
             </p>
-           
           </div>
         </div>
       </section>
