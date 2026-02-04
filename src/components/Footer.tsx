@@ -114,7 +114,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
             &copy; {new Date().getFullYear()} SplGain Money. All rights
             reserved. Designed & Developed By{" "}
             <a 
-              href="https://idea2designs.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 hover:text-green-400 font-medium underline underline-offset-4"

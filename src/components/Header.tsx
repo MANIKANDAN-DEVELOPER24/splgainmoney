@@ -120,12 +120,7 @@ const Header = ({ currentPage, onNavigate }: HeaderProps) => {
                   {item.label}
                 </button>
               ))}
-              {/* <button
-                onClick={() => handleNavClick("mobile-app")}
-                className="bg-green-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-green-700 transition-colors text-center mt-2"
-              >
-                Download App
-              </button> */}
+              
               
               <button     //we need to add the app link when available
                 onClick={() =>
