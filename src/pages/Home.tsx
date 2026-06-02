@@ -10,7 +10,7 @@ import {
   Recycle,
   Laptop,
   Factory,
-  Home as HomeIcon,
+  Home as HomeIcon, 
 } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 
