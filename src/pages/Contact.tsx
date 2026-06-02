@@ -127,8 +127,9 @@ const Contact = () => {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div>
+         <div className="flex justify-center">
+          {/* <div className="grid lg:grid-cols-2 gap-12"> */}
+            {/* <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
                 Send Us a Message
               </h2>
@@ -229,7 +230,7 @@ const Contact = () => {
                   <span>Send Message</span>
                 </button>
               </form>
-            </div>
+            </div> */}
 
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
