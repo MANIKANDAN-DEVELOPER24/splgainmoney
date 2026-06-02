@@ -85,7 +85,7 @@ const About = () => {
                 <p>
                   Today, we're proud to be a trusted partner for thousands of
                   homes, offices, and industries, helping them turn their waste
-                  into value while contributing to a circular economy.
+                  into value while contributing to a circular economy...
                 </p>
               </div>
             </div>
